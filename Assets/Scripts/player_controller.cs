@@ -20,7 +20,7 @@ public class player_controller : MonoBehaviour {
 		count = 0;
 		SetCountText ();
 		wintext.text = "";
-		pickup_points.text = "";
+//		pickup_points.text = "";
 		//anim = GetComponents <Animator> ();
 
 	}
@@ -53,7 +53,7 @@ public class player_controller : MonoBehaviour {
 	void SetCountText ()
 	{ 
 		countText.text = "Score : " + count.ToString () + " pts";
-		pickup_points.text = "+ " + points;
+//		pickup_points.text = "+ " + points;
 
 		if (count >= 100) 
 		{
